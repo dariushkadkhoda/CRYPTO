@@ -1,0 +1,26 @@
+@import '../../styles/mixins.scss';
+$cultured:#f6f6f6;
+$black:#151515;
+.navbar{
+    background-color: $black;
+    padding-block: 0.6rem;
+    position: relative;
+
+    &{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    &__logo img{
+        width: 5rem;
+    }
+    ul{
+        display: flex;
+        align-items: center;
+        gap: 2rem;
+    }
+    a{
+        color: $cultured;
+        text-decoration: up;
+    }
+}
